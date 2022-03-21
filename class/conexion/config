@@ -1,0 +1,9 @@
+{
+    "conexion":{
+        "server" : "sql5.freesqldatabase.com",
+        "user" : "sql5479724",
+        "password" : "N8BqZNUypU",
+        "database" : "sql5479724",
+        "port" : "3306"
+    }
+}
