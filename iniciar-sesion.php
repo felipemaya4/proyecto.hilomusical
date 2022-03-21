@@ -15,8 +15,8 @@
       <?php require_once "barra-navegacion.php"; ?>
       <main class="container fluid pt-5">
         <div class="row my-6">
-            <div class="col-md-4"> </div>
-            <div class="col-md-4 bg-white rounded-3 " id="signin">
+            <div class="col-md-3"> </div>
+            <div class="col-md-6 bg-white rounded-3 " id="signin">
               <form id="login-form" class="form">
                     <h1 class="h1 text-center m-3">INICIAR SESIÓN</h1>
                     <div class="form sm m-2">
@@ -32,7 +32,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-4"> </div>
+            <div class="col-md-6"> </div>
         </div>
     </main>
 
