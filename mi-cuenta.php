@@ -22,11 +22,11 @@
                 </div>
                 <div class="form m-2 col-3">
                     <label for="telefono" class="form-label">Telefono:</label>
-                    <input type="text" class="form-control " id="telefono" name="telefono" placeholder="telefono" required>
+                    <input type="text" class="form-control " id="telefono" name="telefono" placeholder="telefono" >
                 </div>
                 <div class="form m-2 col-3">
                     <label for="pais" class="form-label">Pais:</label>
-                    <input type="text" class="form-control " id="pais" name="pais" placeholder="pais" required>
+                    <input type="text" class="form-control " id="pais" name="pais" placeholder="pais" >
                 </div>
                 <div class="form m-2 col-3">
                     <label for="ciudad " class="form-label">Ciudad:</label>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="form m-2 col-3" >
                     <label for="direccion" class="form-label">Direccion:</label>
-                    <input type="text" class="form-control " id="direccion" name="direccion" placeholder="direccion" required>
+                    <input type="text" class="form-control " id="direccion" name="direccion" placeholder="direccion" >
                 </div>
                 <div class="form sm m-5">
                     <input class="w-100 btn btn-md btn-primary" type="submit" name="actualizar" id="actualizar" value="actualizar">
