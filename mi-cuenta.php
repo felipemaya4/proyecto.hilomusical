@@ -11,28 +11,28 @@
   </head>
   <body class="bg-secondary"> 
       <?php require_once "barra-navegacion.php"; ?>
-    <main class="container fluid position-relative pt-5">
+    <main class="container fluid pt-5">
         <div class="bg-white rounded-3" id="formulario-registro">
             <form id="update-form" class="form-control-sm">
                 <h1 class="h1 text-center m-3">ACTUALIZAR DATOS</h1>
 
-                <div class="form m-2 col-3">
+                <div class="form m-2">
                     <label for="celular" class="form-label">Celular:</label>
                     <input type="text" class="form-control " id="celular" name="celular" placeholder="celular" required>
                 </div>
-                <div class="form m-2 col-3">
+                <div class="form m-2">
                     <label for="telefono" class="form-label">Telefono:</label>
                     <input type="text" class="form-control " id="telefono" name="telefono" placeholder="telefono" >
                 </div>
-                <div class="form m-2 col-3">
+                <div class="form m-2">
                     <label for="pais" class="form-label">Pais:</label>
                     <input type="text" class="form-control " id="pais" name="pais" placeholder="pais" >
                 </div>
-                <div class="form m-2 col-3">
+                <div class="form m-2">
                     <label for="ciudad " class="form-label">Ciudad:</label>
                     <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="ciudad" required>
                 </div>
-                <div class="form m-2 col-3" >
+                <div class="form m-2" >
                     <label for="direccion" class="form-label">Direccion:</label>
                     <input type="text" class="form-control " id="direccion" name="direccion" placeholder="direccion" >
                 </div>

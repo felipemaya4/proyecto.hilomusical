@@ -4,7 +4,7 @@ require_once'conexion/conexion.php';
 
 class usuarios extends conexion{
 
-    private $tabla = "usuarios";
+    private $tabla = "usuarios_hilo";
     private $keyuser = "";
     private $email = "";
     private $nombre = "";

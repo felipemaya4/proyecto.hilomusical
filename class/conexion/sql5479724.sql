@@ -41,7 +41,7 @@ CREATE TABLE `token_usuario` (
 -- Estructura de tabla para la tabla `usuarios`
 --
 
-CREATE TABLE `usuarios` (
+CREATE TABLE `usuarios_hilo` (
   `id` int(11) NOT NULL,
   `keyuser` varchar(255) COLLATE utf8_bin NOT NULL,
   `email` varchar(50) COLLATE utf8_bin NOT NULL,
@@ -72,7 +72,7 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `keyuser`, `email`, `nombre`, `apellido`, `password`, `empresa`, `cargo_empresa`, `celular`, `telefono`, `direccion`, `pais`, `ciudad`, `rol`, `plan`, `autoriza_envio_emails`, `autoriza_terminos`, `fecha_registro`, `fecha_fin`, `estado`, `maxsesiones`, `locales`, `conectado`, `borrarSesiones`) VALUES
+INSERT INTO `usuarios_hilo` (`id`, `keyuser`, `email`, `nombre`, `apellido`, `password`, `empresa`, `cargo_empresa`, `celular`, `telefono`, `direccion`, `pais`, `ciudad`, `rol`, `plan`, `autoriza_envio_emails`, `autoriza_terminos`, `fecha_registro`, `fecha_fin`, `estado`, `maxsesiones`, `locales`, `conectado`, `borrarSesiones`) VALUES
 (1552, '10b538a4c5c56f4cb4c1619f62ed3675', 'sanchez@gmail.com', 'felipe', 'Maya', '13d9498fd20110dd2da34744ff5fa1c7', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, 'SI', 'SI', '2022-03-17', '2022-03-25', NULL, NULL, NULL, NULL, NULL),
 (1553, '3656784d0ae8919c09f33fc0870c97d3', 'pipe@maya.com', 'felipe', 'maya', '13d9498fd20110dd2da34744ff5fa1c7', NULL, NULL, '15987454984', NULL, NULL, NULL, 'hgfvifyvkjhvbkutgc', 1, NULL, 'NO', 'SI', '2022-03-17', '2022-03-25', NULL, NULL, NULL, NULL, NULL),
 (1554, '055d40fb777bb9f448f88cf3d9dc75d2', 'luis.maya@maya.com', 'felipe', 'maya', '13d9498fd20110dd2da34744ff5fa1c7', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, 'NO', 'SI', '2022-03-17', '2022-03-25', NULL, NULL, NULL, NULL, NULL),
@@ -94,7 +94,7 @@ ALTER TABLE `token_usuario`
 --
 -- Indices de la tabla `usuarios`
 --
-ALTER TABLE `usuarios`
+ALTER TABLE `usuarios_hilo`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -109,7 +109,7 @@ ALTER TABLE `token_usuario`
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
-ALTER TABLE `usuarios`
+ALTER TABLE `usuarios_hilo`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1558;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
